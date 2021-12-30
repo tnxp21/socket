@@ -1,13 +1,11 @@
 import socket
 import time
 
-
-
 while True: 
 
     msgFromClient       = input("Enter your message :")
     bytesToSend         = str.encode(msgFromClient +"2")
-    serverAddressPort   = ("172.0.0.2", 20001)
+    serverAddressPort   = ("172.17.0.2", 20001)
     bufferSize          = 1024
 
     UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
