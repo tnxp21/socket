@@ -5,7 +5,7 @@ while True:
 
     msgFromClient       = input("Enter your message :")
     bytesToSend         = str.encode(msgFromClient +"1")
-    serverAddressPort   = ("192.168.65.140", 20001)
+    serverAddressPort   = ("192.168.65.141", 20001)
     bufferSize          = 1024
 
     UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
