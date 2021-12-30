@@ -1,6 +1,11 @@
 import socket
 
-localIP     = "127.0.0.1"
+def get_ip_address():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
+  
+localIP     = get_ip_address()
 localPort   = 20001
 bufferSize  = 1024
 
