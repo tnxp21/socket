@@ -1,8 +1,0 @@
-111,Book 1,Author A,2010
-112,Book 2,Author B,2012
-113,Book 3,Author A,2005
-114,Book 4,Author B,2006
-115,Book 5,Author A,2004
-116,Book 6,Author B,2013
-117,Book 7,Author A,2014
-118,Book 8,Author B,2015
